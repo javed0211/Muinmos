@@ -1,4 +1,5 @@
 ﻿using AutomationLib;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +20,7 @@ namespace SNOW.Steps
         }
         public void InitWebDriver()
         {
-            var client = new WebClient(TestSettings.Options);
-            Snow = new WebDriverPlant(client);
-            _scenarioContext["driver"] = Snow;
+             
         }
 
     }

@@ -1,0 +1,113 @@
+{
+  "uuid": "a9604b574e7f426089354e18d17f7836",
+  "historyId": "Find prime numbers in 1 min from a input argument130359642",
+  "fullName": "Find prime numbers in 1 min from a input argument",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5SMPO63"
+    },
+    {
+      "name": "feature",
+      "value": "Assignment - Muinmos"
+    },
+    {
+      "name": "tag",
+      "value": "Assignment"
+    },
+    {
+      "name": "tag",
+      "value": "Muinmos"
+    }
+  ],
+  "links": [],
+  "name": "Find prime numbers in 1 min from a input argument",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I find prime number from 25 in 1 min",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "PrimeNumber",
+          "source": "c64516670d0948aba631899242144b36-attachment.xlsx",
+          "type": "Excel"
+        }
+      ],
+      "parameters": [],
+      "start": 1620610968269,
+      "stop": 1620610971832
+    },
+    {
+      "name": "Then  I test results are all prime numbers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "PrimeNumbers",
+          "source": "f12d01ff42104446826bd31930676568-attachment.txt",
+          "type": "Text"
+        },
+        {
+          "name": "NotPrimeNumbers",
+          "source": "3ebbffceec704eadbd3228ca611a88dd-attachment.txt",
+          "type": "Text"
+        }
+      ],
+      "parameters": [],
+      "start": 1620610971833,
+      "stop": 1620611070721
+    },
+    {
+      "name": "And  The count of prime number",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620611070722,
+      "stop": 1620611070723
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "startNumber",
+      "value": "25"
+    },
+    {
+      "name": "time",
+      "value": "1"
+    }
+  ],
+  "start": 1620610968260,
+  "stop": 1620611070730
+}

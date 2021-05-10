@@ -1,0 +1,104 @@
+{
+  "uuid": "1bebb885e6c34249a0123070969258ff",
+  "historyId": "Find prime numbers in 1 min from a input argument130359642",
+  "fullName": "Find prime numbers in 1 min from a input argument",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "12"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5SMPO63"
+    },
+    {
+      "name": "feature",
+      "value": "Assignment - Muinmos"
+    },
+    {
+      "name": "tag",
+      "value": "Assignment"
+    },
+    {
+      "name": "tag",
+      "value": "Muinmos"
+    }
+  ],
+  "links": [],
+  "name": "Find prime numbers in 1 min from a input argument",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at SNOW.Steps.AssignmenttSteps.ThenITestResultsAreAllPrimeNumbers() in C:\\Users\\DELL\\source\\repos\\Assignment_muinmos\\Assignment\\Steps\\AssignmenttSteps.cs:line 53\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I find prime number from 25 in 1 min",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "PrimeNumbers.csv",
+          "source": "d1a35f7bd9ff452e936e6799d468222b-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1620613397739,
+      "stop": 1620613401338
+    },
+    {
+      "name": "Then  I test results are all prime numbers",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620613401339,
+      "stop": 1620613401422
+    },
+    {
+      "name": "And  The count of prime number",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1620613401425,
+      "stop": 1620613401425
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "startNumber",
+      "value": "25"
+    },
+    {
+      "name": "time",
+      "value": "1"
+    }
+  ],
+  "start": 1620613397730,
+  "stop": 1620613401468
+}

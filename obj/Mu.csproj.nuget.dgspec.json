@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\Mu.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\Mu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\Mu.csproj",
+        "projectName": "Mu",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\Mu.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj"
+              },
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.29.0, )"
+            },
+            "Selenium.WebDriver.MicrosoftDriver": {
+              "target": "Package",
+              "version": "[17.17134.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.7.13, )"
+            },
+            "SpecFlow.MsTest": {
+              "target": "Package",
+              "version": "[3.7.13, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.7.10, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj",
+        "projectName": "AutomationLib",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj",
+        "projectName": "WebAutomation",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

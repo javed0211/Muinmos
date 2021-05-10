@@ -1,0 +1,21 @@
+{
+  "Find prime numbers in 1 min from a input argument130359642" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bba12ca6f0ac7548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620613972139,
+        "stop" : 1620614078312,
+        "duration" : 106173
+      }
+    } ]
+  }
+}

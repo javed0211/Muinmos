@@ -23,10 +23,10 @@ namespace SNOW.Hooks
         {
         }
 
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            _scenarioContext.Get<IWebDriver>("driver").Close();
-        }
+        //[AfterScenario]
+        //public void AfterScenario()
+        //{
+        //    _scenarioContext.Get<IWebDriver>("driver").Close();
+        //}
     }
 }

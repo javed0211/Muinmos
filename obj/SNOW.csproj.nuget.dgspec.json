@@ -1,36 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\SpecFlowProject1\\SNOW.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\SNOW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\AutomationLib\\AutomationLib.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\AutomationLib\\AutomationLib.csproj",
-        "projectName": "AutomationLib",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\AutomationLib\\AutomationLib.csproj",
-        "frameworks": {
-          "net461": {
-            "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net461": {}
-      }
-    },
-    "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\SpecFlowProject1\\SNOW.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\SNOW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\SpecFlowProject1\\SNOW.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\SNOW.csproj",
         "projectName": "SNOW",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\SpecFlowProject1\\SNOW.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\SNOW.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\SpecFlowProject1\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\Assignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,11 +28,11 @@
           "net461": {
             "targetAlias": "net461",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\AutomationLib\\AutomationLib.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\AutomationLib\\AutomationLib.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
               }
             }
           }
@@ -119,11 +100,30 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj",
+        "projectName": "AutomationLib",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\AutomationLib\\AutomationLib.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj",
         "projectName": "WebAutomation",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\SpecFlowProject1\\WebAutomation\\WebAutomation.csproj"
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Assignment-muinmos\\WebAutomation\\WebAutomation.csproj"
       },
       "frameworks": {
         "net461": {}
